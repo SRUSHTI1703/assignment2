@@ -1,0 +1,20 @@
+package asig2;
+import java.util.Scanner;
+
+public class a2q2 {
+    public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+
+        System.out.print("enter the distance in km : ");
+        int km = sc.nextInt();
+        System.out.println(km);
+        int m = km*1000;
+        System.out.println(km+ " is " +m+ " m");
+        double feet = km*3280.8399;
+        System.out.println(km+ " is " +feet+ " feet");
+        double inch = km*39370.0787;
+        System.out.println(km+ " is " +inch+ " inches");
+        int cm = km*100000;
+        System.out.println(km+ " is " +cm+ " centimeters");
+    }
+}
