@@ -1,0 +1,18 @@
+package asig2;
+import java.util.Scanner;
+public class a2q3 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the employe salary");
+        double salary = sc.nextDouble();
+        double DA = salary*0.4;
+        System.out.println("the DA is " +DA);
+        double HRA = salary*0.2;
+        System.out.println("the HRA is " +HRA);
+        double gross = salary-(DA+HRA);
+        System.out.println("the total gross salary is " +gross);
+
+
+
+    }
+}
