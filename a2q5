@@ -1,0 +1,13 @@
+package asig2;
+import java.util.Scanner;
+public class a2q51 {
+    public static void main(String[] args) {
+        System.out.println("to read the radius from the key and find semi heispheres");
+        Scanner sc = new Scanner(System.in);
+        int r = sc.nextInt();
+        double sa= 3*3.14*r*r;
+        System.out.println(sa);
+        double volume = (2.0/3)*3.14*r*r*r;
+        System.out.println(volume);
+    }
+}
