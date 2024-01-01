@@ -1,0 +1,12 @@
+package asig2;
+import java.util.Scanner;
+public class a2q4 {
+    public static void main(String[] args) {
+        System.out.println("to add the number of digit of a number");
+        Scanner sc = new Scanner (System.in);
+        int n = sc.nextInt();
+        int d1= n%10;
+        int d2= (n/10)%10;
+        int d3=n/100;
+        System.out.print("the sum of the number in the digits ");
+        System.out.println(d1+d2+d3);
