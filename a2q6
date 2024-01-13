@@ -1,0 +1,13 @@
+package asig2;
+import java.util.Scanner;
+public class a2q6 {
+    public static void main(String[] args) {
+        System.out.println("to print the distance travelled");
+        Scanner sc = new Scanner (System.in);
+        System.out.println("enter the time");
+        float time = sc.nextFloat();
+        System.out.println("the distance travelled is :");
+        System.out.println((float)(1.0/2)*32.174*time*time);
+
+    }
+}
